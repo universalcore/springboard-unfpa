@@ -12,14 +12,14 @@ with open(os.path.join(here, 'requirements.txt')) as f:
 with open(os.path.join(here, 'VERSION')) as f:
     version = f.read().strip()
 
-setup(name='springboard_gem',
+setup(name='springboard_unfpa',
       version=version,
-      description='springboard_gem',
+      description='springboard_unfpa',
       long_description=README,
       classifiers=[
-      "Programming Language :: Python",
-      "Topic :: Internet :: WWW/HTTP",
-      "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
+          "Programming Language :: Python",
+          "Topic :: Internet :: WWW/HTTP",
+          "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
       ],
       author='',
       author_email='',
@@ -32,6 +32,6 @@ setup(name='springboard_gem',
       tests_require=requires,
       entry_points={
           'paste.app_factory': [
-              'main = springboard_gem.application:main',
+              'main = springboard_unfpa.application:main',
           ],
       })
