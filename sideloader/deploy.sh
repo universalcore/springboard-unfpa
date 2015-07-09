@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -a springboard-gem ./build/
+cp -a springboard-unfpa ./build/

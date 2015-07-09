@@ -16,8 +16,8 @@ def main(global_config, **settings):
     config.include('springboard.config')
     config.override_asset(
         to_override='springboard:templates/',
-        override_with='springboard_gem:templates/')
+        override_with='springboard_unfpa:templates/')
     config.add_static_view(
-        'static', 'springboard_gem:static', cache_max_age=3600)
+        'static', 'springboard_unfpa:static', cache_max_age=3600)
 
     return config.make_wsgi_app()
