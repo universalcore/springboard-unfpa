@@ -1,1 +1,2 @@
 springboard>=3.0.4
+uwsgi==2.0.8
